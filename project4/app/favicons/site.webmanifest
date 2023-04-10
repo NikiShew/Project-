@@ -1,0 +1,14 @@
+{
+    "name": "DAT",
+    "short_name": "DAT",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#1e6140",
+    "background_color": "#1e6140",
+    "display": "standalone"
+}

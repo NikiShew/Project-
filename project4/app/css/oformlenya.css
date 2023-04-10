@@ -1,0 +1,295 @@
+.oform_title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    padding-top: 40px;
+    
+    color: #000000;
+}
+
+.oform_title::before {
+    content: url("../img/title_left.png");
+    vertical-align: top;
+    padding-right: 15px;
+}
+
+
+
+.oform_title::after {
+    content: url("../img/title_right.png");
+    vertical-align: top;
+    padding-left: 15px;
+    
+}
+
+.user_name, .user_tel, .user_surname, .user_email {
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 255px;
+    padding-left: 15px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 90px;
+}
+.contacts_title, .dostavka_title, .oplata_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.dostavka_title {
+    padding-top: 25px;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    gap: 20px;
+}
+
+
+
+.dostavka_select input {
+    width: 255px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-left: 15px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 90px;
+}
+
+.dostavka_select {
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    gap: 20px;
+}
+
+.user_komment {
+    width: 540px;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    
+    padding-left: 15px;
+
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.line_oform {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 540px;
+    margin-top: 30px;
+}
+
+.dostavka_select select {
+    width: 255px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.oplata_title {
+ padding-top: 20px;
+}
+
+.oform_block {
+    padding-top:40px;
+}
+
+.opl {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    color: #484848;
+}
+
+.oplata_format input {
+    margin-right: 10px;
+}
+
+.oform_tovar {
+    gap: 20px;
+}
+
+.tovar_oform_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.tovars_zinaAndKol_vo {
+    display: flex;
+    height: 60px;
+    gap:10px;
+}
+.tovar_oform_zina, .tovar_oform_grn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    
+    
+    color: #84BE51;
+}
+
+.delBtn  {
+    background: #E74E13;
+    border-radius: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    width: 50%;
+    height: 20px;
+    border: none;
+    color: white;
+    display: inline-block;
+}
+
+.oform_tovares {
+    height: 100%;
+}
+
+.tovars_zinaAndKol_vo {
+    align-items: center;
+    justify-content: center;
+}
+
+.tovar_oform_kolvo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tovar_itogs {
+    background: #21603F;
+    border-radius: 20px;
+    width: 95%;
+    margin: 0 auto;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.zinas {
+
+}
+
+.itogovaya_zina {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #84BE51;
+    line-height: 20px;
+    padding-top: 24px;
+    padding-left: 30px;
+    
+   
+}
+
+.pokupka_btn {
+    background: #E74E13;
+    border-radius: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    width: 95%;
+    text-decoration: none;
+    padding-top: 13px;
+    text-align: center;
+    margin: 20px 15px 30px;
+    height: 47px;
+    border: none;
+    color: white;
+    display: inline-block;
+}
+
+.tovar_oform_imgOne {
+    width: 110px;
+    height: 74px;
+    background: #FFFFFF;
+    margin-left: 15px;
+    /* sh */
+    
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.tovar_oform_imgOne img {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.oform_tovar {
+    padding-top: 3%;
+}
+
+.oform_tovar img {
+
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.oform_koshik {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px;
+    color: #000000;
+}
+
+.oform_block {
+    display: flex;
+    justify-content: space-between;
+}
+.user_kishik {
+    width: 539px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}

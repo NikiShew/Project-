@@ -1,0 +1,57 @@
+.aboutUs_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
+
+.aboutUs__conteiner {
+    padding: 0 15px 5%;
+}
+
+.aboutUs_title::before {
+    content: url("img/title_left.png");
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.aboutUs_title::after {
+    content: url("img/title_right.png");
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.aboutUs_text {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.zin {
+    padding-left: 30px;
+}
+
+.header_bg {
+    display: none;
+}
+
+ul {
+    list-style-type:circle
+}
+
+
+.aboutUs_text span {
+    color:#1E6140;
+    font-weight: 700;
+
+}

@@ -1,0 +1,89 @@
+.content-zakaz {
+    background-image: url("img/bg_poslez.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 660px;
+    background-attachment: fixed;
+}
+
+.zakaz {
+    padding-top: 50px;
+}
+
+.thx {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    padding-top: 13%;
+    
+    
+    color: #FFFFFF;
+}
+
+.thx::before {
+    content: url("img/title_left.png");
+    vertical-align: top;
+    padding-right: 33px;
+}
+
+.thx::after {
+    content: url("img/title_left.png");
+    vertical-align: top;
+    padding-left: 33px;
+}
+
+.manage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    padding-top: 30px;
+    font-weight: 300;
+    max-width: 451px;
+    margin: 0 auto;
+    padding-bottom: 46px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.btnzak{
+    width: 260px;
+    height: 44px;
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    
+    
+    color: #FFFFFF;
+}
+
+
+
+.zkz1 {
+    background: #E74E13;
+}
+.zkz2 {
+    background: none;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.15));
+}
+
+.posle_zakazBtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}

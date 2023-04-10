@@ -1,0 +1,241 @@
+.contacts-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 30px;
+    line-height: 55px;
+    text-align:  center;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.contacts-title::before, .feedback_title::before  {
+    content: url("../img/title_left.png");
+    vertical-align: center;
+    padding-right: 30px;
+} 
+
+.contacts-title::after, .feedback_title::after {
+    content: url("../img/title_right.png");
+    vertical-align: center;
+    padding-left: 30px;
+} 
+.contacts_info_conteiner {
+    max-width: 1110px;
+    background: #FFFFFF;
+    margin: 15px;
+    margin: 0 auto;
+    
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.bigAdress_container {
+    padding: 15px;
+}
+
+.obl {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+max-width: 330px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+.obl::before {
+    
+
+    content: url("../img/obl.png");
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.address_inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+
+.work-days {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    max-width: 140px;
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.work-days span {
+    font-weight: 700; 
+}
+
+.work-days::before {
+    
+    content: url("../img/work-days.png");
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+.gmaills {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+
+    align-items: center;
+    color: #000000;
+}
+
+.gmaills::before  {
+    content: url("../img/addressGmail.png");
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.address_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #1E6140;
+}
+
+.address_line {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.address_info {
+    padding: 40px;
+}
+
+.address_footer {
+    padding: 0 40px 40px;
+}
+.address_subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.tel_address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.tel_address::before {
+
+    content: url("../img/tel_adress.png");
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.address_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.telefones_address{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    width: 53%;
+    justify-content: flex-start;
+}
+
+.ad2 {
+    padding-left: 75px;
+}
+
+.feedback_title  {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 20px;
+    line-height: 55px;
+    text-align: center;
+    padding-top: 10%;
+    color: #000000;
+}
+
+.feedback_subtitle{
+    max-width: 641px;
+    text-align: center;
+    margin: 0 auto;     
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000000;
+}
+
+.f1 {
+    justify-content: center;
+}
+
+
+.sends {
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.send_message {
+    display: inline-block;
+    width: 100%;
+    height: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background: #E74E13;
+    border-radius: 90px;    
+}
+
+
+
+@media screen and (max-width: 962px) {
+    .ad2 {
+        padding-left: 0;
+    }
+}

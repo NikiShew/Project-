@@ -1,0 +1,256 @@
+.cotalog_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cotalog {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cotalog_content {
+    padding: 0 20px 100px;
+    transition: 2s;
+}
+
+.pokaz_tov {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sortB {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white; 
+    border-radius: 20px;
+    width: 220px;
+    height: 30px;
+    justify-content: center;
+
+}
+
+.dopolnit {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sort_buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.left-first {
+    width: 255px;
+    height: 400px;
+    background: #FFFFFF;
+
+    
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.left-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.left-kolvo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    
+    color: #E74E13;
+}
+
+.nazvaniya  {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.filter {
+    width: 255px;
+    background: #FFFFFF;
+    /* sh */
+    
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.virobnikf.o { 
+     display: block;
+}
+
+.virobniks.o2 { 
+    display: block;
+}
+
+.kil-st.o3 {
+    display: block;
+}
+
+.virob {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.kultura {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.virobniks input, .kil-st input, .virobnikf input{
+    margin-right: 10px;
+    width: 10px;
+    margin-left: 30px;
+}
+.filter_block {
+    background: #84BE51;
+    width: 255px;
+    text-align: center;
+    margin-top: 30px;
+    height: 51px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.filter_block.fit {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.filter_title {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    padding-top: 15px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.virob_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 17px;
+    padding-left: 30px;
+    
+    padding-bottom: 13px;
+    color: #000000;
+}
+
+
+
+.virob_line {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 215px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+
+.cotalog-tovars{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 30px 20px;
+
+}
+
+
+
+.cotalog_content {
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.none {
+    display: none;
+}
+
+
+@media screen and (max-width: 1164px ){
+    .cotalog-tovars {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 890px ){
+    .cotalog-tovars {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .virobniks, .virobnikf ,.kil-st {
+        display: none;
+        
+    }
+
+    .filter_block {
+        border-radius: 25px;
+        width: 100%;
+
+    }
+
+
+
+    .sort_buttons {
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .cotalog_content {
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .dopolnit {
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+

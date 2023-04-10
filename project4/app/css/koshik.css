@@ -1,0 +1,429 @@
+.koshik__conteiner {
+    position: absolute;
+    position: fixed;
+    z-index: 100px;
+    width: 95%;
+    top: 25%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 600px;
+    background: linear-gradient(to right, whitesmoke, rgba(243, 243, 243, 0.985));
+    border-radius: 20px;
+}
+
+.oform_tovar:first-child {
+    margin-top: 40px;
+}
+
+.oform_tovar {
+    max-width: 250px;
+    height: 300px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.allTovars {
+    gap: 30px;
+    display: grid;
+}
+
+
+.oform_tovares {
+    max-width: 183px;
+    height: 330px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.tovar_oform_img, .oform_tovar img {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.tovar_info {
+    padding-left: 50px;
+    display: grid;
+    gap: 30px;
+}
+
+
+
+.tovar_oform_zina {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #84BE51;
+}
+
+.tovar_oform_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+
+.koshik_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    padding-top: 3%;
+    color: #000000;
+    padding-bottom: 27px;
+}
+
+.koshik_title::before {
+    content: url("../img/title_left.png");
+    vertical-align: top;
+    padding-right: 33px;
+
+}
+
+.koshik_title::after {
+    content: url("../img/title_right.png");
+    vertical-align: top;
+    padding-left: 33px;
+    
+}
+
+.koshik_line {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.tovar_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 27px;
+    line-height: 30px;
+    padding-left: 5%;
+    color: #000000
+}
+
+.tovar_image {
+    margin-top: 19px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 160px;
+    height: 160px;
+    margin-left: 5%;
+    background: #FFFFFF;
+    margin-left: 15%;
+    margin-bottom: 30px;
+
+}
+
+.koshik__conteiner {
+    overflow: scroll;
+    z-index: 200;
+}
+
+.koshik__conteiner::-webkit-scrollbar {
+    width: 0;
+  }
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.tovar_image img {
+    display: flex;
+
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.tovar_information {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tsina {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #84BE51;
+}
+
+.virod {
+            
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.tsina_za {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    
+    color: #000000;
+}
+
+.koshik_img_and_info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.tovar_counter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.counterPlus {
+
+}
+
+.counterPlus {
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+
+.cnr {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #84C551;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.kil-st {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    line-height: 20px;
+    
+    
+    color: #000000;
+}
+
+.counterNum {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 15px;  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: white;
+}
+
+
+.oform_btn {
+    display: inline-block;
+    background: #E74E13;
+    border: 1px solid #E74E13;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 90px;
+    width: 20%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-decoration: none;
+
+    justify-content: center;
+    margin: 30px 5%;
+    height: 44px;
+}
+
+.header_bsket  {
+    display: inline-block;
+    background: #E74E13;
+    width: 80px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.monitorGrn {
+    padding-left: 10px;
+    border-radius: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+
+}
+
+.monitorPr {
+    display: flex;
+}
+
+.ofotm_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF
+}
+
+.koshik_buttons {
+   position: relative;
+
+}
+
+.none {
+    display: none;
+}
+
+.koshik_pust {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    
+    font-size: 35px;
+    line-height: 20px;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+
+    color: black;
+
+}
+.koshik_pust::before {
+    content: url("../img/shopping-cart-3_icon-icons.com_63429 (2).png");
+    padding-right: 40px;
+
+}
+
+.koshik_buttons {
+    align-items: center;
+}
+
+.itog {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    color: black;
+}
+
+.totalPrice {
+    display: flex;
+}
+
+.total_price {
+    padding-right: 5px;
+    padding-left: 10px;
+    color: #E74E13;
+}
+
+@media screen and (max-width: 681px){
+    .koshik_img_and_info {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .tovar_name {
+        text-align: center;
+    }
+
+    .koshik_title {
+        font-size: 30px;
+    }
+    .koshik_pust {
+        font-size: 32px;
+    }
+
+}
+@media screen and (max-width: 793px) {
+    .oform_btn {
+        width: 90%;
+    }
+    .koshik_buttons {
+       margin-bottom: 30px;
+       margin-right: 10px;
+    }
+
+    .koshik_pust::before {
+        content: "";
+    }
+
+    .koshik_title {
+        width: 250px;
+    }
+
+    .koshik_title::before {
+        padding-right: 10px;
+    }
+    .koshik_title::after {
+        padding-left: 10px;
+    }
+
+    .close {width: 25px;
+    height: 25px;}
+}
+
+@media screen and (max-width: 562px){
+    .koshik_pust {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .itogo_zena {
+        display: none;
+    }
+}
