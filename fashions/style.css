@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1720px;
+}
+
+
+
+.collapse {
+    justify-content: flex-end;
+}
+
+
+
+.nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #242323;
+}
+
+.nav-item:not(:last-child) {
+    padding-right: 60px;
+}
+
+
+.sign-btn {
+    color: white;
+    width: 134px;
+    height: 52px;
+    background: #000000;
+    border-radius: 7px;
+    text-align: center;
+}
+.sign-link {
+    color: white;
+}
+
+.sign-link:hover {
+    color: rgba(255, 255, 255, 0.841)
+}
+
+.header_content {
+    background-color: #F4F6F5;
+    border-radius: 59px;
+    display: flex;
+    padding: 5% 5% 0;
+}
+
+.girl-block {
+    max-width: 871px;
+    max-height: 784px;
+}
+
+.girl-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    color: #000000;
+}
+
+.header-subtext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.05em;
+    max-width: 600px;
+    color: #191818;
+    padding-top: 40px;
+}
+
+.header-btn {
+    background-color: black;
+    width: 150px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+    margin-top: 30px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+
+.partners {
+    width: 100%;
+
+}
+
+
+
+.partners-logos {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.shop {
+    padding: 40px;
+    
+}
+
+.a {
+    width: 500px;
+}
+
+.shop-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
+.shop-img {
+    max-width: 484px;
+    max-height: 704px;
+}
+
+.shop-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shop-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    color: #191919;
+}
+
+.shop-subtext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #7F7F7F;
+}
+
+
+
+.shop-info-icon {
+    max-width: 484px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.payday-inner    {
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    background-repeat: no-repeat;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.payday-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 111.608px;
+    line-height: 137px;
+
+    max-width: 600px;
+    color: #000000;
+}
+
+/* .payday-info {
+    height: 933px;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+} */
+
+.payday-subtext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    max-width: 645px;
+    padding-top: 33px;
+    color: #231300;
+}
+
+.days {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.0402px;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.payday-subtextTwo {
+    padding-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.0402px;
+    line-height: 52px;
+
+    letter-spacing: -0.02em;
+    max-width: 492px;
+    color: #000000;
+}
+
+.payDayGirl{
+    max-width: 992px;
+    max-height: 968px;
+}
+.payDayGirl img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.payday-inner button {
+    background-color: black;
+    width: 150px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 30px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.first-block-young h1, .second-block-young h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    max-width: 345px;
+    color: #000000;
+}
+.first-block-young h3, .second-block-young h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    letter-spacing: -0.04em;
+    
+    color: #7F7F7F;
+}
+
+.young-inner {
+    justify-content: center;
+}
+
+.img-young {
+    max-width: 834px;
+    max-height: 575px;
+}
+
+.img-young img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.young-info {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.young-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    max-width: 560px;
+    color: #000000;
+    padding: 10% 15px 5%;
+
+}
+
+
+
+.app-img{
+    max-width: 428px;
+    max-height: 710px;
+}
+.app-img .appImg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.app-href {
+    padding-bottom: 5%;
+}
+
+
+
+.app-inner {
+    align-items: center;
+}
+
+.download-info h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+    
+    letter-spacing: 0.06em;
+    max-width: 520px;
+    color: #000000
+}
+
+.download-info h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    padding: 21px 0px 30px;
+    letter-spacing: -0.04em;
+    max-width: 419px;
+    color: #7C7C7C;
+}
+
+
+.input-block {
+    background: #E5C643;
+}
+
+.input-block-inner h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+    max-width: 966px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.input-block-inner h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    padding: 30px 0 40px;
+
+    letter-spacing: 0.03em;
+    
+    color: #FFFCF8;
+}
+
+.inputs {
+    justify-content: center;
+    margin:  auto;
+}
+
+.inputs input{
+    width: 400px;
+    height: 68px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;  
+    outline: none;
+
+    padding: 15px;
+    letter-spacing: 0.03em;
+}
+.btn-up {
+    transition: all 1s ease;
+}
+
+
+.btn-up_hide {
+    opacity: 0;
+}
+
+
+.btn-up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.inputs button {
+    position: relative;
+    top: 4px; right: 105px;
+    background: #000000;
+    border-radius: 8px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+}
+
+
+
+.footer-logos h3  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 416px;
+    padding: 20px 0px;
+    letter-spacing: 0.02em;
+    
+    color: #8E8E8E;
+}
+
+.footers {
+    margin: 0 auto;
+}
+
+.footer-navs h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #D9D9D9;
+}
+.footer-navs li>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    
+    color: #8E8E8E;
+    text-decoration: none;
+
+}
+.footer-inner {
+    background-color: black;
+    padding: 5%;
+}
+
+.arr:hover {
+    transform: scale(1.3);
+}
+
+
+
+.hov:hover {
+    text-shadow: 1px 1px 2px gray, 0 0 1em black, 0 0 0.2em gray;
+}
+
+.footer-navs li:hover {
+    text-shadow: rgb(252, 252, 252) 1px 0 5px;;
+}
+
+
+@media screen and (max-width: 1680px){
+    .girl-block {
+        display: none;
+    }
+    .header_content {
+        padding-bottom: 5%;
+    }
+}
+
+@media  screen and (max-width: 570px) {
+    .header-text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .partners-logos {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1656px) {
+    .payday-inner {
+        justify-content: center;
+        background: none;
+    }
+
+    .payday-inner img{
+        border-radius: 50px;
+    }
+
+    .payday-inner button {
+        width: 100%;
+    }
+
+}
+@media  screen and (max-width: 500px) {
+    .payday-title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+
+@media  screen and (max-width: 800px) {
+    .young-inner {
+        flex-wrap: wrap;
+    }
+    .app-inner {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .download-info h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .app-href {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inputs {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .inputs button {
+        position: static;
+        width: 100%;
+    }
+
+} 
+
+@media  screen and (max-width: 400px) {
+    .input-block-inner h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+} 
+
+@media  screen and (max-width: 1150px) {
+    .footers {
+        display: flex;
+        gap: 30px;
+    }
+} 
