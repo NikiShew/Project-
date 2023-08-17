@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">    
+    <script type="module" crossorigin src="/assets/index-30f86d8d.js"></script>
+    <link rel="stylesheet" href="/assets/index-06b790f8.css">
+  </head>
+  <body>
+    <div class="nav-burger ">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAGCAAABggEXHTg9AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAGZQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATug2UwAAACJ0Uk5TAAUICQoLDBEeLS4vMDFgZWeKkb2+v8DBwsPIzs/r7O3x9xqjmREAAADaSURBVCjPdVJbEoMgDIwVtGq1KKJCBfH+lywE3478ALuZTbIJRJUaWQyHE7NRVRFUc1Nbmex4Im3dzBWoBqCcBrridJhKgEbBWLvfZ+oXhvbTx131CMyWnjEdMrQzHi8tg1hiSGEEASDCFCggXTnJgEyuBSFC54gPSZDFsFy3LeKF2RJ2xgOZ1pkPWNIhEyTSNEjSvSknnoVXpn0RB6bVb3+nuj3hj8ST1FPyp3K3Bvm5wc0SfrZkM5FfTFxt5+Ri+zIoTq6DCqPl5DZaXAZO7svg1uf3fd3X5w/AhxQsyH4pnAAAAABJRU5ErkJggg==" class="exit-burger-menu" alt="">
+      <ul class="navigation">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="login-btn">Login</button>
+    </div>
+
+    <div id="app">
+      <div class="header">
+        <div class="conteiner">
+          <div class="header-inner">
+            <img src="data:image/png;base64,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" class="logo" alt="">
+            <img src="/assets/free-icon-menu-bar-8107138-bf4c5048.png" class="burger-menu-btn none" alt="">
+
+            <ul class="navigation">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Offers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="login-btn">Login</button>
+          </div>
+        </div>
+      </div>
+      <div class="header-content">
+        <div class="conteiner">
+          <div class="header-content__inner">
+            <div class="left-block">
+              <h1 class="header-text">Make it simple, but significant.</h1>
+              <h3 class="header-subtext">The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design.</h3>
+              <button class="getStarted-header">Get Started</button>
+            </div>
+            <div class="right-block">
+              <div class="header-imgs">
+                <img src="/assets/header-right-bg-0caf9ead.png" alt="" class="header-right-bg">
+                <img src="/assets/first-phone-bef590f3.png" class="first-phone element-animation" alt="">
+                <img src="/assets/second-phone-bbc7f61f.png" class="second-phone element-animation" alt="">
+              </div>
+              <div class="group-phones">
+                <img src="/assets/group-phones-aebfdd4c.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="conteiner">
+          <div class="content-inner">
+            <div class="content-img">
+              <img src="/assets/CONTENT - iPhone-ba75af54.png" alt="" class="iphone-img element-animation">
+              <img src="/assets/massage-CONTENT-iphone-7570fc6f.png" alt="" class="iphone-mass element-animation">
+            </div>
+            <div class="iphone-info">
+              <h2 class="element-animation">Dlex Startup Mobile Apps & Completed design system</h2>
+              <h3 class="element-animation">A complete design system with 70 pre-built screens for mobile apps to enable you to kick-off your mobile app design.</h3>
+              <button class="element-animation">Get it Now</button>
+            </div>
+          </div>
+          <div class="instant-email">
+            <div class="instant-leftBlock">
+              <h2 class="element-animation">Instant email &
+                postal delivery.</h2>
+              <h3 class="element-animation">Simplify your integration using Stripe Checkout. It dynamically adapts to your customer’s device and location to increase conversion.</h3>
+              <button class="element-animation">Get Started</button>
+            </div>
+            <div class="instant-rightBlock">
+              <img src="/assets/phone-instant-EMAIL-44622911.png" alt="" class="email-iphone element-animation">
+              <img src="/assets/massage-CONTENT-iphone-7570fc6f.png" alt="" class="email-message element-animation">
+            </div>
+          </div>
+          <div class="global-scale">
+              <div class="global-scale_inner">
+                <h3 class="gl-scale-txt element-animation">Global scale</h3>
+                <h2 class="title-global-scale element-animation">The backbone for internet business</h2>
+                <h3 class="subtitle-global-scale element-animation">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h3>
+
+                <div class="blocks-global-scale">
+                  <div class="block-global-scale element-animation">
+                    <h2 class="element-animation">384K+</h2>
+                    <h3 class="element-animation">Once you’re set up, payouts arrive in your bank account.</h3>
+                  </div>
+                  <div class="block-global-scale element-animation">
+                    <h2 class="element-animation">90%</h2>
+                    <h3 class="element-animation">Once you’re set up, payouts arrive in your bank account.</h3>
+                  </div>
+                  <div class="block-global-scale element-animation">
+                    <h2 class="element-animation">135+</h2>
+                    <h3 class="element-animation">Once you’re set up, payouts arrive in your bank account.</h3>
+                  </div>
+                  <div class="block-global-scale element-animation">
+                    <h2 class="element-animation">45+</h2>
+                    <h3 class="element-animation">Once you’re set up, payouts arrive in your bank account.</h3>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="functions">
+            <div class="functions-inner">
+              <div class="functions-header">
+                <div class="functions-title-txt element-animation ">
+                  <h2 class="element-animation">Everything you need for <span> $99 a month</span></h2>
+                  <h3 class="element-animation">Includes every feature we offer plus unlimited projects and unlimited users</h3>
+                </div>
+                <button class="element-animation">Get Started Now</button>
+              </div>
+              <div class="functions-content">
+                <div class="functions-content-txt">
+                  <h3 class="functions-txt-title element-animation">Everything you need</h3>
+                  <h2 class="function-title element-animation">All in one platform</h2>
+                  <h3 class="functions-subtitle element-animation">Lorem ipsum dolor sit amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</h3>
+                </div>
+                <div class="function-block">
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3 class="element-animation">Email Comments and Attachments</h3>
+                  </div>
+
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3 class="element-animation">Future Recurring Tasks on Calendar</h3>
+                  </div>
+
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3>Drag and Drop Attachments</h3>
+                  </div>
+
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3>Copy Projects, Spaces, and Lists</h3>
+                  </div>
+
+                </div>
+                <div class="function-block">
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3 class="element-animation">Email Comments and Attachments</h3>
+                  </div>
+                  <div class="line"></div>
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3>Future Recurring Tasks on Calendar</h3>
+                  </div>
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3 >Drag and Drop Attachments</h3>
+                  </div>
+                  <div class="function-item element-animation">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGiSURBVHgB1ZRNSwJRFIbfOzNFfoHiCAUFtmyV0CoQ0l9im9bqspX6C9S2LdJf0KZ9E7jMsFXLhILEFAe/CHTmdGfKz1EZXdW7mTP3nPvw3su5B/jrYssS2VbLK+hSjEiIgFEIBJUvq3xDQRcHD0mfr2obmG/2UkR6gqe9WOaEsXTc78qsBBqumLZ1y8MI7KlC4iDK3aqjBWEmPRBza8AMhbiBLBY5zNbb50wQbrCBiCiaDHiUGYccFsOG4veZGsUmkN9dEDaO+lbq4C72iubL13wqYtz/GIihFFwEqJX7M7Dn6wYcsgRHQLLUCtr2mfH9yTAKzndQrdzD41Ud+2E3/Ec7Y9jp5R6cshWoQ/NNgIA6X7B74sJB2GM6ey91V8JMEatOgKKmQBMsNccXMiQnQ+2pvxpmkoYV87Cj/1yje4/1enBaSkJ2R41gbIv3UgYbynjfo3gMNBqToBexvgpx2V20AE2JGh8IqMC+FOoMktMLC6dN9rOTnu5+q0glQp6fKj2fWT4PP/jrEcXI75P08kovb40KY7qit4fF5KFPxb/UN26+jMhKoKW3AAAAAElFTkSuQmCC">
+                    <h3 class="element-animation">Copy Projects, Spaces, and Lists</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="notify-me">
+          <div class="conteiner">
+          <div class="notify-me_inner">
+            <div class="notify-me_txt">
+              <h2 class="element-animation">Sign up for our newsletter</h2>
+              <h3 class="element-animation">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.</h3>
+            </div>
+            <div class="notify-input">
+              <div class="inputs">
+                <input type="text" placeholder="Enter email address" class="element-animation">
+                <button class="element-animation">Notify me</button>
+              </div>
+              <h4 class="element-animation">We care about the protection of your data. read our Privacy policy</h4>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="conteiner">
+        <div class="footer-inner">
+          <h4 class="footer-txt element-animation">© 2020 Dlex, Inc. All rights reserved</h4>
+          <div class="social">
+            <a href="#" class="element-animation"><img src="/assets/facebook-6aa9d40d.svg" alt=""></a>
+            <a href="#" class="element-animation"><img src="/assets/github-17ec1b55.svg" alt=""></a>
+            <a href="#" class="element-animation"><img src="/assets/instagram-825c0b89.svg" alt=""></a>
+            <a href="#" class="element-animation"><img src="/assets/twitter-8fea5a49.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>
